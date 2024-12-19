@@ -1,0 +1,20 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Kompaniya Veb-Sayti</title>
+    {% load crispy_forms_tags %}
+</head>
+<body>
+
+  
+
+  <form method="post" action="">
+      {% csrf_token %}
+      {{ form|crispy }}
+      <button type="submit">Submit</button>
+  </form>
+  
+
+</body>
+</html>
+
